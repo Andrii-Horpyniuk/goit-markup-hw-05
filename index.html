@@ -517,7 +517,12 @@
                 placeholder="E-mail"
               />
             </label>
-            <button type="submit" class="footer-btn">Subscribe</button>
+            <button type="submit" class="footer-btn">
+              Subscribe
+              <svg class="footer-btn-icon" width="24" height="24">
+                <use href="./images/user.svg#icon-telegram"></use>
+              </svg>
+            </button>
           </form>
         </div>
       </div>
@@ -532,9 +537,14 @@
         <p class="modal-title">Leave your contacts and we will call you back</p>
         <form class="modal-form">
           <div class="modal-field">
-            <label for="name" class="modal-label">Name</label>
+            <label for="user-name" class="modal-label">Name</label>
             <div class="modal-input-wrap">
-              <input type="text" class="modal-input" name="name" id="name" />
+              <input
+                type="text"
+                class="modal-input"
+                name="user-name"
+                id="user-name"
+              />
               <svg class="modal-icon" width="18" height="24">
                 <use href="./images/user.svg#icon-person"></use>
               </svg>
@@ -550,19 +560,24 @@
             </div>
           </div>
           <div class="modal-field">
-            <label for="email" class="modal-label">Email</label>
+            <label for="user-email" class="modal-label">Email</label>
             <div class="modal-input-wrap">
-              <input type="email" class="modal-input" name="email" id="email" />
+              <input
+                type="email"
+                class="modal-input"
+                name="email"
+                id="user-email"
+              />
               <svg class="modal-icon" width="18" height="24">
                 <use href="./images/user.svg#icon-email"></use>
               </svg>
             </div>
           </div>
           <div class="modal-field">
-            <label for="user-text" class="modal-label">Comment</label>
+            <label for="user-comment" class="modal-label">Comment</label>
             <textarea
-              name="user-text"
-              id="user-text"
+              name="user-comment"
+              id="user-comment"
               class="modal-input modal-textarea"
               placeholder="Text input"
             ></textarea>
